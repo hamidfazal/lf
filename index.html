@@ -3,400 +3,372 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hidden Causes of Fatigue: A Clinical Lecture | Dr. Hamid Fazal</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Long COVID Neuropsychiatric Syndromes - Clinical Lecture</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-        body { font-family: 'Inter', sans-serif; }
-    </style>
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased scroll-smooth">
+<body class="bg-slate-50 text-slate-800 font-sans antialiased scroll-smooth">
 
-    <header class="bg-gradient-to-r align-middle from-slate-900 to-indigo-950 text-white shadow-md sticky top-0 z-50">
-        <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
-            <div class="flex items-center gap-3">
-                <i class="fa-solid fa-user-md text-teal-400 text-2xl"></i>
-                <span class="font-bold text-lg tracking-wide">Dr. Hamid Fazal, MBBS, MD</span>
-            </div>
-            <nav class="flex gap-6 text-sm font-medium text-slate-300">
-                <a href="#about" class="hover:text-teal-400 transition-colors">About Author</a>
-                <a href="#lecture" class="hover:text-teal-400 transition-colors">Lecture Content</a>
-                <a href="#evaluation" class="hover:text-teal-400 transition-colors">Clinical Evaluation</a>
-                <a href="#clusters" class="hover:text-teal-400 transition-colors">Fatigue Clusters</a>
-            </nav>
+    <header class="bg-gradient-to-r from-blue-900 to-indigo-950 text-white py-16 px-4 shadow-md">
+        <div class="max-w-5xl mx-auto text-center md:text-left">
+            <span class="bg-blue-500/30 text-blue-300 font-semibold px-3 py-1 rounded-full text-sm uppercase tracking-wide">
+                Comprehensive Clinical Lecture for Physicians
+            </span>
+            <h1 class="text-4xl md:text-5xl font-extrabold mt-4 mb-3 tracking-tight">
+                Long COVID Neuropsychiatric Syndromes
+            </h1>
+            <p class="text-xl text-slate-300 max-w-3xl leading-relaxed">
+                Understanding, diagnosing, and managing the persistent cognitive, affective, and autonomic manifestations of PASC.
+            </p>
         </div>
     </header>
 
-    <main class="max-w-6xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-12 gap-8">
+    <div class="max-w-5xl mx-auto px-4 py-12 grid grid-cols-1 lg:grid-cols-3 gap-8">
         
-        <aside id="about" class="lg:col-span-4 bg-white rounded-2xl shadow-sm border border-slate-100 p-6 h-fit sticky top-24">
-            <div class="flex flex-col items-center text-center">
+        <aside class="lg:col-span-1">
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sticky top-6 text-center lg:text-left">
                 <img src="https://i.ibb.co/1tQ5DG7W/1776180140383.png" 
                      alt="Dr. Hamid Fazal" 
-                     class="w-36 h-36 rounded-full object-cover border-4 border-teal-500/20 shadow-md mb-4 bg-slate-100"
-                     onerror="this.src='https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=300'">
+                     class="w-32 h-32 rounded-full mx-auto lg:mx-0 object-cover border-4 border-indigo-100 shadow-sm mb-4">
                 
                 <h2 class="text-xl font-bold text-slate-900">Dr. Hamid Fazal</h2>
-                <p class="text-xs font-semibold text-teal-600 tracking-wider uppercase mt-1">MBBS, MD (USA), PGD (Nutrition)</p>
-                <p class="text-sm text-slate-500 mt-1">Chronic Disease & Mental Health Specialist</p>
+                <p class="text-sm font-medium text-indigo-600 mb-4">MBBS, MD (USA), PGD (Nutrition)</p>
                 
-                <div class="w-full h-px bg-slate-100 my-4"></div>
-            </div>
-            
-            <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">Biography & Focus</h3>
-            <p class="text-sm text-slate-600 leading-relaxed text-justify">
-                Dr. Hamid Fazal is a physician working at the intersection of chronic disease and mental health. He has experience in ICU medicine, CKD and dialysis care, and served for four years as OPD In-charge managing patients with chronic kidney disease, diabetes, and hypertension. 
-            </p>
-            <p class="text-sm text-slate-600 leading-relaxed text-justify mt-3">
-                He is actively involved in psychiatry community outreach services, including care for patients with neurodevelopmental and neurocognitive disorders such as epilepsy, cerebral palsy, intellectual disability, and behavioral conditions.
-            </p>
-
-            <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 mt-4 mb-2">Clinical Interests</h3>
-            <div class="flex flex-wrap gap-1.5">
-                <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded-md font-medium">Neuropsychiatry</span>
-                <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded-md font-medium">Cognitive Aging</span>
-                <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded-md font-medium">Dementia</span>
-                <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded-md font-medium">Chronic Disease Nutrition</span>
-                <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded-md font-medium">AI Medical Education</span>
-            </div>
-
-            <div class="mt-4 pt-4 border-t border-slate-100 bg-slate-50/50 -mx-6 -mb-6 p-6 rounded-b-2xl">
-                <p class="text-xs text-slate-500 italic">
-                    "Passionate about leveraging AI-assisted tools and evidence-based approaches to develop accessible medical education resources for clinicians and students worldwide."
+                <hr class="border-slate-100 my-4">
+                
+                <p class="text-slate-600 text-sm leading-relaxed text-justify">
+                    Dr. Hamid Fazal is a physician working at the intersection of chronic disease and mental health. He has experience in ICU medicine, CKD and dialysis care, and served for four years as OPD In-charge managing patients with chronic kidney disease, diabetes, and hypertension. 
+                </p>
+                <p class="text-slate-600 text-sm leading-relaxed text-justify mt-3">
+                    He is involved in psychiatry community outreach services, including care for patients with neurodevelopmental and neurocognitive disorders such as epilepsy, cerebral palsy, intellectual disability, and behavioral conditions. 
+                </p>
+                <p class="text-slate-600 text-sm leading-relaxed text-justify mt-3">
+                    His clinical and academic interests include neuropsychiatry, cognitive aging, dementia, nutrition in chronic disease, and psychiatric manifestations of chronic medical illnesses. He is passionate about leveraging AI-assisted tools and evidence-based approaches to develop accessible medical education resources for clinicians, students, and healthcare professionals worldwide, while working toward expanding community support services for special-needs children.
                 </p>
             </div>
         </aside>
 
-        <article id="lecture" class="lg:col-span-8 space-y-8">
+        <main class="lg:col-span-2 space-y-12">
             
-            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 border-l-4 border-l-indigo-600">
-                <div class="inline-flex items-center gap-2 bg-indigo-50 text-indigo-700 text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full mb-3">
-                    <i class="fa-solid fa-book-open"></i> Clinical Lecture Series
-                </div>
-                <h1 class="text-3xl font-extrabold text-slate-900 tracking-tight sm:text-4xl">Hidden Causes of Fatigue</h1>
-                <p class="text-lg text-slate-500 mt-2 font-medium">A Comprehensive Clinical Lecture for Physicians</p>
-            </div>
-
-            <section class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 space-y-4">
-                <h2 class="text-xl font-bold text-slate-900 flex items-center gap-2 border-b border-slate-100 pb-3">
-                    <i class="fa-solid fa-circle-info text-slate-400"></i> Introduction
+            <section class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                <h2 class="text-2xl font-bold text-slate-900 mb-4 border-b border-slate-100 pb-2">
+                    <i class="fa-solid fa-circle-info text-blue-600 mr-2"></i>Introduction
                 </h2>
-                <p class="text-slate-600 leading-relaxed">
-                    Fatigue is among the most common complaints encountered in clinical practice. It is often multifactorial, underdiagnosed, and frequently mislabeled colloquially as mere “stress,” “depression,” or “weakness.”
-                </p>
-                
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
-                    <div class="bg-slate-50 p-4 rounded-xl border border-slate-100">
-                        <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">What Fatigue Often Represents:</h4>
-                        <ul class="text-sm space-y-1.5 text-slate-700 font-medium">
-                            <li class="flex items-start gap-2"><i class="fa-solid fa-angles-right text-indigo-500 mt-1 text-xs"></i> Early manifestation of systemic disease</li>
-                            <li class="flex items-start gap-2"><i class="fa-solid fa-angles-right text-indigo-500 mt-1 text-xs"></i> Metabolic or inflammatory disturbances</li>
-                            <li class="flex items-start gap-2"><i class="fa-solid fa-angles-right text-indigo-500 mt-1 text-xs"></i> Sleep architecture disruptions</li>
-                            <li class="flex items-start gap-2"><i class="fa-solid fa-angles-right text-indigo-500 mt-1 text-xs"></i> Latent nutritional deficiencies & polypharmacy</li>
-                        </ul>
+                <div class="space-y-4 text-slate-700 leading-relaxed">
+                    <p>COVID-19 initially appeared to be a predominantly respiratory illness, but it is now clear that persistent neurological and psychiatric manifestations are among the most disabling long-term consequences.</p>
+                    <p>The term <strong>Long COVID</strong> or <strong>Post-Acute Sequelae of SARS-CoV-2 Infection (PASC)</strong> describes symptoms persisting or appearing after acute infection, usually beyond 4–12 weeks.</p>
+                    <p>Neuropsychiatric manifestations are extremely common and may persist for months or years, profoundly affecting:</p>
+                    <ul class="grid grid-cols-2 gap-2 pl-4 list-disc marker:text-indigo-500">
+                        <li>Cognition</li>
+                        <li>Mood</li>
+                        <li>Sleep</li>
+                        <li>Autonomic function</li>
+                        <li>Pain perception</li>
+                        <li>Fatigue &amp; Functional capacity</li>
+                    </ul>
+                    <div class="p-4 bg-slate-50 rounded-xl border-l-4 border-amber-500 mt-4 text-sm text-slate-600">
+                        <strong>Overlapping Clinical Phenotypes:</strong> These syndromes frequently manifest features overlapping with Chronic Fatigue Syndrome (ME/CFS), Fibromyalgia, Dysautonomia, Functional Neurological Disorders, Mood/Anxiety disorders, and Cognitive Impairment syndromes.
                     </div>
-                    <div class="bg-rose-50/50 p-4 rounded-xl border border-rose-100/60">
-                        <h4 class="text-xs font-bold text-rose-600 uppercase tracking-wider mb-2">Significant Functional Impairments:</h4>
-                        <ul class="text-sm space-y-1.5 text-slate-700">
-                            <li><strong class="text-slate-900">Cognitive:</strong> Impaired focus, memory & motivation</li>
-                            <li><strong class="text-slate-900">Somatic:</strong> Reduced physical productivity & endurance</li>
-                            <li><strong class="text-slate-900">Systemic:</strong> Disrupted mood, quality of life & sexual health</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="bg-indigo-50/60 border border-indigo-100 p-4 rounded-xl text-sm text-indigo-900 font-medium flex items-center gap-3">
-                    <i class="fa-solid fa-scale-balanced text-indigo-600 text-lg"></i>
-                    <span><strong>The Clinical Challenge:</strong> Confidently distinguishing physiological tiredness (resolves with rest) from pathological fatigue (persistent, structural disruption).</span>
                 </div>
             </section>
 
-            <section class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 space-y-4">
-                <h2 class="text-xl font-bold text-slate-900 flex items-center gap-2 border-b border-slate-100 pb-3">
-                    <i class="fa-solid fa-arrows-to-dot text-slate-400"></i> Definitions & Clinical Typology
-                </h2>
-                
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                    <div class="border border-slate-100 p-4 rounded-xl bg-slate-50/50">
-                        <span class="text-xs font-bold text-indigo-600 uppercase">Fatigue</span>
-                        <p class="text-xs text-slate-500 mt-1">Subjective drop in energy, exhaustion, low motivation, or high sleepiness propensity.</p>
-                    </div>
-                    <div class="border border-slate-100 p-4 rounded-xl bg-slate-50/50">
-                        <span class="text-xs font-bold text-amber-600 uppercase">Weakness</span>
-                        <p class="text-xs text-slate-500 mt-1">Objective, demonstrable loss of neuromuscular physical muscle power.</p>
-                    </div>
-                    <div class="border border-slate-100 p-4 rounded-xl bg-slate-50/50">
-                        <span class="text-xs font-bold text-teal-600 uppercase">Exercise Intolerance</span>
-                        <p class="text-xs text-slate-500 mt-1">Inability to sustain an expected workload or baseline duration of physical activity.</p>
-                    </div>
-                </div>
-
-                <div class="overflow-hidden border border-slate-100 rounded-xl mt-4">
-                    <table class="w-full text-left border-collapse text-sm">
-                        <thead>
-                            <tr class="bg-slate-100 text-slate-700 font-semibold border-b border-slate-200">
-                                <th class="p-3">Fatigue Type</th>
-                                <th class="p-3">Key Presentation / Pathophysiology Features</th>
-                            </tr>
-                        </thead>
-                        <tbody class="divide-y divide-slate-100 text-slate-600">
-                            <tr><td class="p-3 font-semibold text-slate-900">Physical</td><td class="p-3">Reduced muscular endurance and functional output</td></tr>
-                            <tr class="bg-slate-50/50"><td class="p-3 font-semibold text-slate-900">Mental</td><td class="p-3">Cognitive slowing, executive dysfunction, poor concentration</td></tr>
-                            <tr><td class="p-3 font-semibold text-slate-900">Motivational</td><td class="p-3">Apathy, psychological detachment, clinical burnout pathways</td></tr>
-                            <tr class="bg-slate-50/50"><td class="p-3 font-semibold text-slate-900">Sleep-related</td><td class="p-3">Non-restorative architectural sleep patterns despite duration</td></tr>
-                            <tr><td class="p-3 font-semibold text-slate-900">Inflammatory</td><td class="p-3">Sickness behavior phenotype, malaise, flu-like constant exhaustion</td></tr>
-                            <tr class="bg-slate-50/50"><td class="p-3 font-semibold text-slate-900">Endocrine/Metabolic</td><td class="p-3">Systemic cellular low energy paired with profound metabolic disruptions</td></tr>
-                        </tbody>
-                    </table>
-                </div>
-            </section>
-
-            <section class="bg-rose-50/40 border border-rose-100 p-6 rounded-2xl space-y-3">
-                <h2 class="text-xl font-bold text-rose-900 flex items-center gap-2">
-                    <i class="fa-solid fa-triangle-exclamation text-rose-600"></i> Red Flags Require Immediate Diagnostic Workup
-                </h2>
-                <p class="text-sm text-rose-800 font-medium">Urgent parallel clinical evaluation is required if the fatigue co-presents with any of the following:</p>
-                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 text-xs font-semibold text-rose-900">
-                    <div class="bg-white/80 p-2.5 rounded-lg border border-rose-200/60 shadow-xs"><i class="fa-solid fa-weight-scale mr-1.5 text-rose-600"></i> Unexplained Weight Loss</div>
-                    <div class="bg-white/80 p-2.5 rounded-lg border border-rose-200/60 shadow-xs"><i class="fa-solid fa-temperature-high mr-1.5 text-rose-600"></i> Persistent Fever</div>
-                    <div class="bg-white/80 p-2.5 rounded-lg border border-rose-200/60 shadow-xs"><i class="fa-solid fa-circle-nodes mr-1.5 text-rose-600"></i> Lymphadenopathy</div>
-                    <div class="bg-white/80 p-2.5 rounded-lg border border-rose-200/60 shadow-xs"><i class="fa-solid fa-droplet mr-1.5 text-rose-600"></i> GI Bleeding / Melena</div>
-                    <div class="bg-white/80 p-2.5 rounded-lg border border-rose-200/60 shadow-xs"><i class="fa-solid fa-wind mr-1.5 text-rose-600"></i> Progressive Dyspnea</div>
-                    <div class="bg-white/80 p-2.5 rounded-lg border border-rose-200/60 shadow-xs"><i class="fa-solid fa-heart-pulse mr-1.5 text-rose-600"></i> New-Onset Chest Pain</div>
-                    <div class="bg-white/80 p-2.5 rounded-lg border border-rose-200/60 shadow-xs"><i class="fa-solid fa-brain mr-1.5 text-rose-600"></i> Focal Neurological Deficits</div>
-                    <div class="bg-white/80 p-2.5 rounded-lg border border-rose-200/60 shadow-xs"><i class="fa-solid fa-moon mr-1.5 text-rose-600"></i> Drenching Night Sweats</div>
-                </div>
-            </section>
-
-            <section class="space-y-6">
-                <div class="border-b border-slate-200 pb-2">
-                    <h2 class="text-2xl font-black text-slate-900 tracking-tight">Differential Diagnosis Breakdown</h2>
-                </div>
-
-                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 space-y-4">
-                    <h3 class="text-lg font-bold text-slate-900 flex items-center justify-between">
-                        <span>1. Sleep Disorders <span class="text-xs text-rose-600 font-semibold bg-rose-50 px-2 py-0.5 rounded-md ml-2">Most Underdiagnosed</span></span>
-                        <i class="fa-solid fa-bed text-indigo-500"></i>
-                    </h3>
+            <section class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                <h3 class="text-2xl font-bold text-slate-900 mb-4 border-b border-slate-100 pb-2">
+                    <i class="fa-solid fa-chart-line text-blue-600 mr-2"></i>Definitions &amp; Epidemiology
+                </h3>
+                <div class="space-y-6 text-slate-700">
+                    <blockquote class="border-l-4 border-indigo-600 bg-indigo-50/50 p-4 rounded-r-xl italic text-sm">
+                        <strong>WHO Definition of Post-COVID Condition:</strong> Symptoms occurring usually within 3 months of onset of probable or confirmed SARS-CoV-2 infection, lasting at least 2 months and cannot be explained by an alternative diagnosis.
+                    </blockquote>
                     
-                    <div class="space-y-3 text-sm text-slate-600">
-                        <p><strong class="text-slate-900">Obstructive Sleep Apnea (OSA):</strong> Highly prevalent, frequently missed on broad histories.</p>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 bg-slate-50 p-4 rounded-xl">
-                            <div>
-                                <span class="text-xs font-bold uppercase tracking-wider text-slate-400 block mb-1">Clinical Clues</span>
-                                <ul class="list-disc pl-4 space-y-0.5 text-xs">
-                                    <li>Loud habitual snoring & witnessed apneas</li>
-                                    <li>Morning frontal headaches & extreme dry mouth</li>
-                                    <li>Resistant hypertension & daytime somnolence</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <span class="text-xs font-bold uppercase tracking-wider text-slate-400 block mb-1">High-Risk Phenotypes & Tools</span>
-                                <p class="text-xs">Obesity, metabolic syndrome, PCOS. Utilize <strong>STOP-BANG</strong> screening, Epworth Sleepiness Scale, and diagnostic Polysomnography.</p>
-                            </div>
+                    <div>
+                        <h4 class="font-bold text-slate-900 mb-2">Epidemiological Estimates:</h4>
+                        <ul class="list-disc pl-5 space-y-1 marker:text-indigo-500">
+                            <li><strong>10–30%</strong> of infected individuals develop persistent long-term symptoms.</li>
+                            <li>Higher prevalence is noted after severe acute illness, though mild cases are frequently affected.</li>
+                            <li>Women appear to be disproportionately affected.</li>
+                            <li><strong>Risk Factors:</strong> Obesity, diabetes, pre-existing autoimmune disease, history of anxiety/depression, and a severe acute inflammatory response.</li>
+                        </ul>
+                    </div>
+
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full divide-y divide-slate-200 text-sm">
+                            <thead class="bg-slate-50">
+                                <tr>
+                                    <th class="px-4 py-3 text-left font-bold text-slate-900">Common Neuropsychiatric Symptom</th>
+                                    <th class="px-4 py-3 text-left font-bold text-slate-900">Approx. Frequency</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-100">
+                                <tr><td class="px-4 py-2.5 font-medium">Fatigue</td><td class="px-4 py-2.5 text-slate-600">40–70%</td></tr>
+                                <tr><td class="px-4 py-2.5 font-medium">Brain fog</td><td class="px-4 py-2.5 text-slate-600">20–60%</td></tr>
+                                <tr><td class="px-4 py-2.5 font-medium">Sleep disturbance</td><td class="px-4 py-2.5 text-slate-600">30–50%</td></tr>
+                                <tr><td class="px-4 py-2.5 font-medium">Anxiety</td><td class="px-4 py-2.5 text-slate-600">20–40%</td></tr>
+                                <tr><td class="px-4 py-2.5 font-medium">Depression</td><td class="px-4 py-2.5 text-slate-600">15–35%</td></tr>
+                                <tr><td class="px-4 py-2.5 font-medium">Headache</td><td class="px-4 py-2.5 text-slate-600">15–30%</td></tr>
+                                <tr><td class="px-4 py-2.5 font-medium">Dysautonomia / POTS</td><td class="px-4 py-2.5 text-slate-600 font-semibold text-indigo-600">Increasingly recognized</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                <h3 class="text-2xl font-bold text-slate-900 mb-4 border-b border-slate-100 pb-2">
+                    <i class="fa-solid fa-microscope text-blue-600 mr-2"></i>Multifactorial Pathophysiology
+                </h3>
+                <div class="space-y-6 text-slate-700">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-slate-50 rounded-xl border border-slate-100">
+                            <h4 class="font-bold text-indigo-950 mb-1">1. Neuroinflammation</h4>
+                            <p class="text-sm text-slate-600">Persistent immune activation causes microglial activation, cytokine excess (IL-6, TNF-α, IL-1β), oxidative stress, and subsequent disruption of Serotonin, Dopamine, Glutamate, and GABA systems.</p>
                         </div>
+                        <div class="p-4 bg-slate-50 rounded-xl border border-slate-100">
+                            <h4 class="font-bold text-indigo-950 mb-1">2. Microvascular Dysfunction</h4>
+                            <p class="text-sm text-slate-600">Endothelial injury, systemic hypercoagulability, and microthrombi trigger reduced cerebral perfusion, resulting in severe physical fatigue and cognitive deficits.</p>
+                        </div>
+                        <div class="p-4 bg-slate-50 rounded-xl border border-slate-100">
+                            <h4 class="font-bold text-indigo-950 mb-1">3. Autonomic Dysfunction</h4>
+                            <p class="text-sm text-slate-600">Direct or indirect autonomic nerve injury yields tachycardia, orthostatic intolerance, thermal dysregulation, and GI dysmotility—strongly overlapping with POTS and ME/CFS.</p>
+                        </div>
+                        <div class="p-4 bg-slate-50 rounded-xl border border-slate-100">
+                            <h4 class="font-bold text-indigo-950 mb-1">4. HPA Axis &amp; Mitochondrial Injury</h4>
+                            <p class="text-sm text-slate-600">Chronic physiological stress alters the HPA axis, while impaired cellular energy metabolism (mitochondrial dysfunction) directly drives profound post-exertional malaise and brain fog.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                <h3 class="text-2xl font-bold text-slate-900 mb-6 border-b border-slate-100 pb-2">
+                    <i class="fa-solid fa-brain text-blue-600 mr-2"></i>Major Neuropsychiatric Syndromes &amp; Management
+                </h3>
+                
+                <div class="space-y-8 text-slate-700">
+                    
+                    <div class="border-l-4 border-blue-500 pl-4 space-y-3">
+                        <h4 class="text-xl font-bold text-slate-900">1. Cognitive Dysfunction ("Brain Fog")</h4>
+                        <p class="text-sm">The most characteristic complaint. Features slow thinking, word-finding deficits, forgetfulness, poor executive concentration, and rapid mental fatigue affecting core attention and working memory.</p>
+                        <p class="text-xs text-slate-500 font-medium"><strong>Differential Diagnosis to Exclude:</strong> Depression, sleep apnea, hypothyroidism, Vitamin B12 deficiency, early dementia, or medication adverse effects.</p>
+                        <div class="bg-slate-50 p-4 rounded-xl text-sm">
+                            <p class="font-bold mb-1 text-slate-800">Management Strategy:</p>
+                            <ul class="list-disc pl-5 space-y-1 text-slate-600">
+                                <li><strong>Non-pharmacological:</strong> Cognitive pacing (avoid "push-crash" cycles), structured routines, task chunking, memory exercises. Avoid aggressive graded physical exercise in cases showing post-exertional malaise.</li>
+                                <li><strong>Pharmacological (Emerging):</strong> Stimulants (Methylphenidate, Modafinil, Armodafinil) may improve executive function and wakefulness, but use with extreme caution due to anxiety or tachycardia risks.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="border-l-4 border-emerald-500 pl-4 space-y-3">
+                        <h4 class="text-xl font-bold text-slate-900">2. Fatigue Syndromes &amp; Post-Exertional Malaise (PEM)</h4>
+                        <p class="text-sm">Profound and disabling physical/mental exhaustion resembling ME/CFS. The core pathognomonic feature is <strong>PEM</strong>: an acute worsening of symptoms hours or the day after minor physical/mental exertion, lasting days to weeks.</p>
+                        <div class="bg-slate-50 p-4 rounded-xl text-sm">
+                            <p class="font-bold mb-1 text-slate-800">Management Strategy:</p>
+                            <ul class="list-disc pl-5 space-y-1 text-slate-600">
+                                <li><strong>Energy Envelope / Pacing:</strong> Strictly monitor activity thresholds and heart rate crash triggers.</li>
+                                <li><strong>Supportive:</strong> Treat underlying insomnia or sleep apnea; rule out Vitamin D, B12, Iron, and Magnesium deficiencies.</li>
+                                <li><strong>Medications:</strong> Low-dose naltrexone (experimental), Modafinil, or Bupropion are sometimes utilized.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="border-l-4 border-purple-500 pl-4 space-y-3">
+                        <h4 class="text-xl font-bold text-slate-900">3. Depression in Long COVID</h4>
+                        <p class="text-sm">Driven by combined neuroinflammation, severe functional disability, isolation, and neurotransmitter dysregulation. Symptoms are characterized by prominent anhedonia, hopelessness, low motivation, and cognitive slowing.</p>
+                        <div class="bg-slate-50 p-4 rounded-xl text-sm">
+                            <p class="font-bold mb-1 text-slate-800">Therapeutic Options:</p>
+                            <ul class="list-disc pl-5 space-y-1 text-slate-600">
+                                <li><strong>Psychotherapy:</strong> Cognitive Behavioral Therapy (CBT) and Acceptance-Based Therapies.</li>
+                                <li><strong>SSRIs / SNRIs:</strong> Escitalopram or Sertraline. Use SNRIs (Duloxetine, Venlafaxine) if comorbid chronic pain coexists. Bupropion is highly useful for severe fatigue, hypersomnia, or sluggish processing speed.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="border-l-4 border-amber-500 pl-4 space-y-3">
+                        <h4 class="text-xl font-bold text-slate-900">4. Anxiety Disorders vs. Dysautonomia</h4>
+                        <p class="text-sm">Generalized anxiety, panic states, and health anxiety are common. Crucially, <strong>autonomic dysfunction may mimic psychiatric anxiety</strong>. They frequently coexist, demanding targeted triage:</p>
                         
-                        <p class="pt-2"><strong class="text-slate-900">Restless Legs Syndrome (RLS):</strong> Compulsive nocturnal urge to move legs; heavily tied to **latent iron deficiency** causing severe architectural sleep fragmentation.</p>
-                    </div>
-                </div>
-
-                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 space-y-4">
-                    <h3 class="text-lg font-bold text-slate-900 flex items-center justify-between">
-                        <span>2. Nutritional Deficiencies</span>
-                        <i class="fa-solid fa-apple-whole text-emerald-500"></i>
-                    </h3>
-                    
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-slate-600">
-                        <div class="border border-slate-100 p-4 rounded-xl">
-                            <span class="font-bold text-slate-900 block mb-1">Iron Deficiency (Non-Anemic)</span>
-                            <p class="text-xs">Serum Ferritin <strong class="text-indigo-600"><30–50 ng/mL</strong> can induce systemic mitochondrial fatigue and brain fog even with normal Hemoglobin levels. Check for PPI usage or menorrhagia.</p>
-                        </div>
-                        <div class="border border-slate-100 p-4 rounded-xl">
-                            <span class="font-bold text-slate-900 block mb-1">Vitamin B12 Deficiency</span>
-                            <p class="text-xs">Common in vegetarians, long-term Metformin or PPI users. Important clinical reminder: **Neurological deficits can manifest well before any macrocytic changes appear** on a CBC.</p>
-                        </div>
-                        <div class="border border-slate-100 p-4 rounded-xl">
-                            <span class="font-bold text-slate-900 block mb-1">Vitamin D & Magnesium</span>
-                            <p class="text-xs">Pervasive across South Asia. Subclinical deficiency triggers myalgias, chronic musculoskeletal fatigue, anxiety, and sleep-onset insomnia.</p>
-                        </div>
-                        <div class="border border-slate-100 p-4 rounded-xl bg-amber-50/50 border-amber-100">
-                            <span class="font-bold text-amber-900 block mb-1">Clinical Intervention Pearl</span>
-                            <p class="text-xs text-amber-800">Optimize biochemical markers via targeted supplementation rather than blindly relying on wide "normal reference ranges."</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 space-y-4">
-                    <h3 class="text-lg font-bold text-slate-900 flex items-center justify-between">
-                        <span>3 & 4. Metabolic & Endocrine States</span>
-                        <i class="fa-solid fa-droplet text-amber-500"></i>
-                    </h3>
-                    <div class="space-y-3 text-sm text-slate-600">
-                        <p>
-                            <strong class="text-slate-900">Insulin Resistance & Prediabetes:</strong> Operates via rapid postprandial glycemic fluctuations, mitochondrial dysfunction, and low-grade endothelial inflammation. Hallmark presentations include prominent post-meal sleepiness, profound brain fog, and acanthosis nigricans. Screening requires **HOMA-IR** or fasting insulin metrics.
-                        </p>
-                        <p>
-                            <strong class="text-slate-900">Endocrine Dysregulation:</strong> Rule out primary **Hypothyroidism** (TSH/Free T4), secondary atypical **Hyperthyroidism** in older adults, **Hypogonadism** (linked to metabolic disease, opioid use), and primary adrenal crises like **Addison’s Disease** (marked by postural hypotension and hyperpigmentation).
-                        </p>
-                    </div>
-                </div>
-
-                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 space-y-4">
-                    <h3 class="text-lg font-bold text-slate-900 flex items-center justify-between">
-                        <span>5 & 6. Inflammation & Medication Dynamics</span>
-                        <i class="fa-solid fa-capsules text-teal-500"></i>
-                    </h3>
-                    
-                    <p class="text-sm text-slate-600">
-                        Cytokine-driven inflammation directly induces a centralized **"sickness behavior"** phenotype (anhedonia, neuroinflammation, psychomotor fatigue) seen across obesity, autoimmune connective tissue diseases, and **Long COVID**. 
-                    </p>
-
-                    <div class="overflow-hidden border border-slate-100 rounded-xl mt-2 text-xs">
-                        <div class="bg-slate-100 p-2 font-bold text-slate-700">Common Iatrogenic Fatigue Offenders</div>
-                        <div class="grid grid-cols-3 p-2 border-b font-medium text-slate-500 bg-slate-50/50">
-                            <div>Medication Class</div><div>Key Mechanism</div><div>Clinical Impact</div>
-                        </div>
-                        <div class="grid grid-cols-3 p-2 border-b">
-                            <div class="font-semibold text-slate-900">Beta-Blockers</div><div>Reduced central sympathetic drive</div><div>Exercise intolerance</div>
-                        </div>
-                        <div class="grid grid-cols-3 p-2 border-b">
-                            <div class="font-semibold text-slate-900">SSRIs & Psychotropics</div><div>Serotonergic emotional blunting</div><div>Somnolence / Apathy</div>
-                        </div>
-                        <div class="grid grid-cols-3 p-2 border-b">
-                            <div class="font-semibold text-slate-900">Statins</div><div>Mitochondrial coenzyme depletion</div><div>Proximal myalgias & fatigue</div>
-                        </div>
-                        <div class="grid grid-cols-3 p-2">
-                            <div class="font-semibold text-slate-900">PPIs & Metformin</div><div>Inhibited ileal/gastric absorption</div><div>Secondary B12 & Mg deficiencies</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 space-y-4">
-                    <h3 class="text-lg font-bold text-slate-900 flex items-center justify-between">
-                        <span>7, 8 & 9. Neuropsychiatric, ME/CFS & Atypical Infections</span>
-                        <i class="fa-solid fa-brain text-purple-500"></i>
-                    </h3>
-                    <div class="space-y-3 text-sm text-slate-600">
-                        <p><strong class="text-slate-900">Psychiatric Somatization:</strong> Major Depressive Disorder frequently presents somatically with fatigue and psychomotor slowing as the chief complaint rather than overt sadness. Chronic anxiety disorders lead to sustained autonomic hyperarousal, culminating in neuroendocrine exhaustion.</p>
-                        <p><strong class="text-slate-900">ME/CFS:</strong> A strict diagnosis of exclusion. The pathognomonic marker is **Post-Exertional Malaise (PEM)**—a disproportionate, severe symptom crash following minimal cognitive or physical exertion.</p>
-                        <p><strong class="text-slate-900">Indolent Infections:</strong> Keep a high clinical index of suspicion for atypical presentations of **Tuberculosis** (vital in endemic regions like South Asia), alongside chronic viral syndromes including Epstein-Barr Virus (EBV), Cytomegalovirus (CMV), and subclinical Viral Hepatitis.</p>
-                    </div>
-                </div>
-
-                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 space-y-4">
-                    <h3 class="text-lg font-bold text-slate-900 flex items-center justify-between">
-                        <span>10, 11 & 12. Cardiovascular, GI, and Lifestyle Factors</span>
-                        <i class="fa-solid fa-heart text-rose-500"></i>
-                    </h3>
-                    <div class="space-y-3 text-sm text-slate-600">
-                        <p><strong class="text-slate-900">Cardiovascular Precursors:</strong> Early occult **Heart Failure** often manifests as profound physical fatigue well before true exertional dyspnea or peripheral pitting edema develops. Additionally, **POTS / Autonomic Dysautonomia** presents with significant orthostatic intolerance, postural tachycardia, and persistent brain fog.</p>
-                        <p><strong class="text-slate-900">Gastrointestinal Links:</strong> Subclinical **Celiac Disease** can present exclusively with isolated fatigue, refractory iron deficiency, and bloating. **MASLD / NAFLD** functions as a silent driver of chronic metabolic neuroinflammation.</p>
-                    </div>
-                </div>
-            </section>
-
-            <section id="evaluation" class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 space-y-4">
-                <h2 class="text-xl font-bold text-slate-900 flex items-center gap-2 border-b border-slate-100 pb-3">
-                    <i class="fa-solid fa-stethoscope text-indigo-600"></i> Structured Clinical Evaluation Blueprint
-                </h2>
-                
-                <div class="space-y-4">
-                    <div>
-                        <span class="text-xs font-bold text-indigo-600 uppercase tracking-wider block mb-2">Step 1: Directed Clinical History Focus</span>
-                        <div class="grid grid-cols-2 md:grid-cols-3 gap-3 text-xs bg-slate-50 p-3 rounded-xl border border-slate-100 font-medium">
-                            <div>• Precise Onset & Chronology</div>
-                            <div>• Objective Architectural Sleep Quality</div>
-                            <div>• Detailed Medication & PPI Review</div>
-                            <div>• Comprehensive Dietary & Alcohol Intake</div>
-                            <div>• Mood & Autonomic Hyperarousal Sync</div>
-                            <div>• Formal Menstrual & Gynecological History</div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <span class="text-xs font-bold text-indigo-600 uppercase tracking-wider block mb-2">Step 2: Targeted Physical Examination Markers</span>
-                        <p class="text-xs text-slate-600 leading-relaxed">
-                            Assess accurate **BMI and waist circumference** metrics; check for conjunctival or palmar pallor; perform detailed palpation for thyroid masses or subtle lymphadenopathy. Crucially, capture **orthostatic vital signs** (lying and standing blood pressure and pulse metrics) alongside a focused screen for focal neurocognitive or neurological deficits.
-                        </p>
-                    </div>
-
-                    <div>
-                        <span class="text-xs font-bold text-indigo-600 uppercase tracking-wider block mb-2">Step 3: Evidence-Based Baseline Laboratory Panels</span>
-                        <div class="overflow-hidden border border-slate-100 rounded-xl mt-1 text-xs">
-                            <table class="w-full text-left border-collapse">
-                                <thead class="bg-slate-100 font-semibold text-slate-700">
-                                    <tr><th class="p-2.5">Recommended Lab Test</th><th class="p-2.5">Specific Diagnostic Rationale</th></tr>
+                        <div class="overflow-x-auto my-2">
+                            <table class="min-w-full divide-y divide-slate-200 text-xs bg-slate-50 rounded-lg">
+                                <thead>
+                                    <tr class="bg-slate-100">
+                                        <th class="px-3 py-2 text-left font-bold">Dysautonomia Features</th>
+                                        <th class="px-3 py-2 text-left font-bold">Primary Anxiety Features</th>
+                                    </tr>
                                 </thead>
-                                <tbody class="divide-y divide-slate-100 text-slate-600">
-                                    <tr><td class="p-2.5 font-semibold text-slate-900">Complete Blood Count (CBC)</td><td class="p-2.5">Rule out occult microcytic/macrocytic anemias or chronic leukocytosis.</td></tr>
-                                    <tr class="bg-slate-50/50"><td class="p-2.5 font-semibold text-slate-900">Serum Ferritin</td><td class="p-2.5">Screen for non-anemic tissue iron deficiency (Target levels > 50 ng/mL).</td></tr>
-                                    <tr><td class="p-2.5 font-semibold text-slate-900">Serum Vitamin B12 & D3</td><td class="p-2.5">Evaluate basic metabolic neurocognitive and neuromuscular pathways.</td></tr>
-                                    <tr class="bg-slate-50/50"><td class="p-2.5 font-semibold text-slate-900">Highly Sensitive TSH</td><td class="p-2.5">Primary screen for primary clinical or subclinical thyroid dysfunction.</td></tr>
-                                    <tr><td class="p-2.5 font-semibold text-slate-900">Fasting HbA1c / Insulin</td><td class="p-2.5">Determine early peripheral insulin resistance and HOMA-IR metrics.</td></tr>
-                                    <tr class="bg-slate-50/50"><td class="p-2.5 font-semibold text-slate-900">CMP, LFTs, ESR & CRP</td><td class="p-2.5">Identify underlying organ dysfunction or high systemic inflammatory tone.</td></tr>
+                                <tbody class="divide-y divide-slate-200 text-slate-600">
+                                    <tr><td class="px-3 py-2">Orthostatic symptoms &amp; persistent brain fog</td><td class="px-3 py-2">Symptoms clearly triggered by acute fear or stressors</td></tr>
+                                    <tr><td class="px-3 py-2">Tachycardia instantly triggered upon standing</td><td class="px-3 py-2">Episodic generalized panic independent of posture</td></tr>
+                                    <tr><td class="px-3 py-2">Severe physical exercise intolerance</td><td class="px-3 py-2">Prominent anticipatory worry and catastrophic cognitions</td></tr>
                                 </tbody>
                             </table>
                         </div>
+                        <p class="text-xs text-slate-600"><strong>Management:</strong> Non-pharmacological approaches include hydration, increased salt intake, compression stockings, and breathing exercises. Pharmacological treatments involve SSRIs, Buspirone, Beta-blockers, or Ivabradine under specialist supervision.</p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
+                        <div class="p-4 bg-slate-50 rounded-xl border border-slate-100 text-sm">
+                            <h5 class="font-bold text-slate-900 mb-1">5. Sleep Disorders</h5>
+                            <p class="text-xs text-slate-600 mb-2">Insomnia, fragmented/non-restorative sleep, or circadian rhythm disruption.</p>
+                            <span class="text-xs font-semibold text-indigo-600">CBT-I (First-line) • Melatonin • Trazodone • Low-dose Doxepin / Mirtazapine.</span>
+                        </div>
+                        <div class="p-4 bg-slate-50 rounded-xl border border-slate-100 text-sm">
+                            <h5 class="font-bold text-slate-900 mb-1">6. Headache Syndromes</h5>
+                            <p class="text-xs text-slate-600 mb-2">Migraine-like, tension-type, or new daily persistent headaches from central sensitization.</p>
+                            <span class="text-xs font-semibold text-indigo-600">NSAIDs/Triptans (Acute) • Amitriptyline • Topiramate • Propranolol • CGRP therapies.</span>
+                        </div>
+                        <div class="p-4 bg-slate-50 rounded-xl border border-slate-100 text-sm">
+                            <h5 class="font-bold text-slate-900 mb-1">7. Functional Neurological Symptoms</h5>
+                            <p class="text-xs text-slate-600 mb-1">Genuine neuro-network disorders causing tremors, gait issues, weakness, or non-epileptic events.</p>
+                            <span class="text-xs text-amber-700 font-medium"><i class="fa-solid fa-triangle-exclamation mr-1"></i>Avoid dismissive language; validate genuine network dysfunction.</span>
+                        </div>
+                        <div class="p-4 bg-slate-50 rounded-xl border border-slate-100 text-sm">
+                            <h5 class="font-bold text-slate-900 mb-1">8. Psychosis &amp; Severe Presentations</h5>
+                            <p class="text-xs text-slate-600 mb-1">Rare acute presentations of mania, psychosis, catatonia, or severe encephalitic agitation.</p>
+                            <span class="text-xs text-rose-600 font-semibold"><i class="fa-solid fa-circle-exclamation mr-1"></i>Urgent Neuro-Psychiatric workup for autoimmune encephalitis/steroid delirium.</span>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                <h3 class="text-2xl font-bold text-slate-900 mb-4 border-b border-slate-100 pb-2">
+                    <i class="fa-solid fa-vial text-blue-600 mr-2"></i>Diagnostic Workup
+                </h3>
+                <div class="space-y-4 text-slate-700">
+                    <p class="text-sm"><strong>Basic Laboratory Investigations:</strong> CBC, ESR/CRP, CMP, Thyroid Function (TSH), Vitamin B12, Ferritin, Vitamin D, and HbA1c.</p>
+                    
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full divide-y divide-slate-200 text-sm">
+                            <thead class="bg-slate-50">
+                                <tr>
+                                    <th class="px-4 py-3 text-left font-bold text-slate-900">Presenting Clinical Indication</th>
+                                    <th class="px-4 py-3 text-left font-bold text-slate-900">Targeted Advanced Investigation</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-100 text-slate-600">
+                                <tr><td class="px-4 py-2.5 font-medium text-slate-900">Severe or progressive cognitive decline</td><td class="px-4 py-2.5">Brain MRI (Structural rule-out)</td></tr>
+                                <tr><td class="px-4 py-2.5 font-medium text-slate-900">Suspected Autonomic Injury / POTS</td><td class="px-4 py-2.5">Tilt Table Testing / Autonomic Vitals</td></tr>
+                                <tr><td class="px-4 py-2.5 font-medium text-slate-900">Profound unrefreshing sleep/daytime hypersomnia</td><td class="px-4 py-2.5">Polysomnography (Sleep study)</td></tr>
+                                <tr><td class="px-4 py-2.5 font-medium text-slate-900">Burning pain / suspected small fiber neuropathy</td><td class="px-4 py-2.5">EMG / Nerve Conduction Studies (NCS)</td></tr>
+                                <tr><td class="px-4 py-2.5 font-medium text-slate-900">Severe refractive psychological symptoms</td><td class="px-4 py-2.5 font-semibold text-indigo-600">Tertiary Neurology / Psychiatry referral</td></tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </section>
 
-            <section id="clusters" class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 space-y-4">
-                <h2 class="text-xl font-bold text-slate-900 flex items-center gap-2 border-b border-slate-100 pb-3">
-                    <i class="fa-solid fa-cubes text-teal-600"></i> Clinical "Fatigue Clusters" & Pearls
-                </h2>
+            <section class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                <h3 class="text-2xl font-bold text-slate-900 mb-4 border-b border-slate-100 pb-2">
+                    <i class="fa-solid fa-heart-pulse text-blue-600 mr-2"></i>Management Framework
+                </h3>
+                <div class="space-y-6 text-slate-700 text-sm">
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 text-center">
+                        <div class="p-4 bg-slate-50 rounded-xl border border-slate-100">
+                            <div class="font-bold text-lg text-indigo-600 mb-1">Step 1</div>
+                            <div class="font-semibold text-slate-900 text-xs mb-1">Validate Symptoms</div>
+                            <p class="text-xs text-slate-500">Therapeutic validation improves compliance and clinical outcomes.</p>
+                        </div>
+                        <div class="p-4 bg-slate-50 rounded-xl border border-slate-100">
+                            <div class="font-bold text-lg text-indigo-600 mb-1">Step 2</div>
+                            <div class="font-semibold text-slate-900 text-xs mb-1">Exclude Alternatives</div>
+                            <p class="text-xs text-slate-500">Do not anchor or attribute everything blindly to Long COVID.</p>
+                        </div>
+                        <div class="p-4 bg-slate-50 rounded-xl border border-slate-100">
+                            <div class="font-bold text-lg text-indigo-600 mb-1">Step 3</div>
+                            <div class="font-semibold text-slate-900 text-xs mb-1">Identify Dominance</div>
+                            <p class="text-xs text-slate-500">Isolate fatigue, dysautonomia, pain, or depression dominance.</p>
+                        </div>
+                        <div class="p-4 bg-slate-50 rounded-xl border border-slate-100">
+                            <div class="font-bold text-lg text-indigo-600 mb-1">Step 4</div>
+                            <div class="font-semibold text-slate-900 text-xs mb-1">Multimodal Plan</div>
+                            <p class="text-xs text-slate-500">Combine lifestyle, pacing, psychological care, and drugs.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-indigo-950 text-indigo-100 p-5 rounded-xl">
+                        <h4 class="font-bold mb-2"><i class="fa-solid fa-person-walking-arrow-loop-left mr-2 text-indigo-400"></i>Rehabilitation Principles</h4>
+                        <p class="leading-relaxed mb-2"><strong>Avoid Overexertion:</strong> Traditional aggressive graded physical training models frequently trigger profound relapses or severe PEM.</p>
+                        <p class="leading-relaxed"><strong>Gradual Functional Recovery:</strong> Rely on meticulous activity pacing, interval-based physical rehabilitation, and real-time heart rate monitoring protocols.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                <h3 class="text-2xl font-bold text-slate-900 mb-4 border-b border-slate-100 pb-2">
+                    <i class="fa-solid fa-kit-medical text-blue-600 mr-2"></i>Clinical Pearls &amp; Prescribing Matrix
+                </h3>
+                <div class="space-y-6 text-slate-700">
+                    <div class="bg-amber-50 border-l-4 border-amber-500 p-4 rounded-r-xl space-y-2 text-sm text-slate-700">
+                        <h4 class="font-bold text-slate-900"><i class="fa-solid fa-lightbulb mr-2 text-amber-600"></i>Important Clinical Pearls</h4>
+                        <ul class="list-disc pl-5 space-y-1">
+                            <li><strong>Symptoms are Real:</strong> Unremarkable standard structural MRIs or normal baseline lab work does not exclude severe, debilitating neurofunctional impairment.</li>
+                            <li><strong>Pacing over Pushing:</strong> PEM tracking is mandatory; pushing past limits breaks metabolic thresholds.</li>
+                            <li><strong>Check Orthostatic Vitals:</strong> Screen routinely for subtle dysautonomia using active stand tests.</li>
+                            <li><strong>Polypharmacy Risks:</strong> Patients rapidly gather cross-prescribed benzodiazepines, sedatives, stimulants, and NSAIDs. Regularly rationalize and taper treatments.</li>
+                        </ul>
+                    </div>
+
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full divide-y divide-slate-200 text-sm">
+                            <thead class="bg-slate-50">
+                                <tr>
+                                    <th class="px-4 py-3 text-left font-bold text-slate-900">Symptom Cluster</th>
+                                    <th class="px-4 py-3 text-left font-bold text-slate-900">Potential Targeted Medication Options</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-100 text-slate-600">
+                                <tr><td class="px-4 py-2.5 font-medium text-slate-900">Fatigue + Brain Fog</td><td class="px-4 py-2.5 text-indigo-600 font-medium">Modafinil, Bupropion</td></tr>
+                                <tr><td class="px-4 py-2.5 font-medium text-slate-900">Depression + Comorbid Pain</td><td class="px-4 py-2.5 text-indigo-600 font-medium">Duloxetine</td></tr>
+                                <tr><td class="px-4 py-2.5 font-medium text-slate-900">Anxiety + Severe Dysautonomia</td><td class="px-4 py-2.5 text-indigo-600 font-medium">SSRIs (initiate cautiously)</td></tr>
+                                <tr><td class="px-4 py-2.5 font-medium text-slate-900">Refractive Insomnia</td><td class="px-4 py-2.5 text-indigo-600 font-medium">Melatonin, Trazodone</td></tr>
+                                <tr><td class="px-4 py-2.5 font-medium text-slate-900">Migraine-like Phenotype</td><td class="px-4 py-2.5 text-indigo-600 font-medium">Amitriptyline, Topiramate</td></tr>
+                                <tr><td class="px-4 py-2.5 font-medium text-slate-900">Orthostatic Tachycardia (POTS)</td><td class="px-4 py-2.5 text-indigo-600 font-medium">Beta Blockers</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="p-4 bg-rose-50 border border-rose-100 rounded-xl text-sm">
+                        <h4 class="font-bold text-rose-900 mb-2"><i class="fa-solid fa-triangle-exclamation mr-2"></i>Red Flags Requiring Immediate Urgent Evaluation</h4>
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-2 text-xs font-semibold text-rose-800">
+                            <div class="p-2 bg-white rounded shadow-2xs">New focal neuro deficits</div>
+                            <div class="p-2 bg-white rounded shadow-2xs">Acute onset seizures</div>
+                            <div class="p-2 bg-white rounded shadow-2xs">Severe active psychosis</div>
+                            <div class="p-2 bg-white rounded shadow-2xs">Emergent suicidality</div>
+                            <div class="p-2 bg-white rounded shadow-2xs">Rapid cognitive decline</div>
+                            <div class="p-2 bg-white rounded shadow-2xs">Unexplained syncope</div>
+                            <div class="p-2 bg-white rounded shadow-2xs">Acute chest pain</div>
+                            <div class="p-2 bg-white rounded shadow-2xs">Hypoxia / low O₂</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                <h3 class="text-2xl font-bold text-slate-900 mb-4 border-b border-slate-100 pb-2">
+                    <i class="fa-solid fa-flask-vial text-blue-600 mr-2"></i>Emerging Research &amp; Prognosis
+                </h3>
+                <div class="space-y-4 text-slate-700 text-sm leading-relaxed">
+                    <p><strong>Investigational Regimens under Active Study:</strong> Low-dose naltrexone, selective antihistamines, dedicated systemic anti-inflammatory protocols, Hyperbaric Oxygen Therapy (HBOT), transcutaneous vagal nerve stimulation, micro-dose anticoagulant strategies, and target-specific mitochondrial supplements. Clinical evidence remains restricted.</p>
+                    <p><strong>Prognosis:</strong> While a significant percentage of patients experience a gradual linear improvement over extended timelines, others run an undulating relapsing-remitting pattern or remain severely disabled for years despite entirely unrevealing routine laboratory evaluations.</p>
+                </div>
                 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
-                    <div class="p-3 border border-slate-100 rounded-xl bg-slate-50/50 flex justify-between items-center">
-                        <div><strong class="text-slate-900 block mb-0.5">Fatigue + Obesity + Loud Snoring</strong> High diagnostic probability for Obstructive Sleep Apnea (OSA).</div>
-                        <i class="fa-solid fa-chevron-right text-slate-300 ml-2"></i>
-                    </div>
-                    <div class="p-3 border border-slate-100 rounded-xl bg-slate-50/50 flex justify-between items-center">
-                        <div><strong class="text-slate-900 block mb-0.5">Fatigue + Diffuse Hair Loss + Low Ferritin</strong> Active tissue iron depletion before macrocytic changes appear.</div>
-                        <i class="fa-solid fa-chevron-right text-slate-300 ml-2"></i>
-                    </div>
-                    <div class="p-3 border border-slate-100 rounded-xl bg-slate-50/50 flex justify-between items-center">
-                        <div><strong class="text-slate-900 block mb-0.5">Fatigue + Progressive Distal Neuropathy</strong> Latent Vitamin B12 deficiency (Check Metformin/PPI history).</div>
-                        <i class="fa-solid fa-chevron-right text-slate-300 ml-2"></i>
-                    </div>
-                    <div class="p-3 border border-slate-100 rounded-xl bg-slate-50/50 flex justify-between items-center">
-                        <div><strong class="text-slate-900 block mb-0.5">Fatigue + Marked Post-Meal Somnolence</strong> Early insulin resistance, cellular energy mismatch.</div>
-                        <i class="fa-solid fa-chevron-right text-slate-300 ml-2"></i>
-                    </div>
-                </div>
-
-                <div class="bg-slate-900 text-slate-100 p-5 rounded-xl space-y-3 mt-4">
-                    <h4 class="text-sm font-bold tracking-wider uppercase text-teal-400 flex items-center gap-2">
-                        <i class="fa-solid fa-gem"></i> Essential Clinical Pearls for the Ward
-                    </h4>
-                    <ul class="text-xs space-y-2 text-slate-300 leading-relaxed list-none pl-0">
-                        <li class="flex gap-2"><span class="text-teal-400 font-bold">1.</span> <strong>Fatigue is a symptom, not a diagnosis.</strong> Always pursue the underlying physiological root cause.</li>
-                        <li class="flex gap-2"><span class="text-teal-400 font-bold">2.</span> <strong>Iron deficiency can impair cellular respiration long before anemic changes</strong> materialize on standard blood counts.</li>
-                        <li class="flex gap-2"><span class="text-teal-400 font-bold">3.</span> <strong>Aggressive exercise must be heavily modulated or explicitly avoided</strong> in early, severe cases of ME/CFS due to post-exertional crash risks.</li>
-                        <li class="flex gap-2"><span class="text-teal-400 font-bold">4.</span> <strong>Review and aggressively taper polypharmacy</strong>; routine sedatives, statins, and chronic PPI therapies frequently interact iatrogenically to cause fatigue.</li>
-                    </ul>
+                <div class="mt-8 pt-6 border-t border-slate-100 bg-slate-900 text-white p-6 rounded-xl text-center">
+                    <h4 class="text-xl font-bold mb-2">Conclusion</h4>
+                    <p class="text-sm text-slate-300 text-justify max-w-2xl mx-auto leading-relaxed">
+                        Long COVID neuropsychiatric syndromes represent an intricate biopsychosocial, multisystemic, and deeply inflammatory challenge to contemporary modern medicine. Successful outcomes rely thoroughly on validation, symptom-targeted therapy, structured activity pacing, and integrated multidisciplinary care models.
+                    </p>
                 </div>
             </section>
 
-            <section class="bg-slate-100 p-5 rounded-2xl text-xs space-y-2">
-                <span class="font-bold uppercase tracking-wider text-slate-500 block">Suggested References for Further Reading</span>
-                <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-1 text-slate-600 list-disc pl-4">
-                    <li>UpToDate: Clinical Evaluation of Fatigue in Adults</li>
-                    <li>Harrison’s Principles of Internal Medicine</li>
-                    <li>American Academy of Sleep Medicine Guidelines</li>
-                    <li>NICE Guidelines: Myalgic Encephalomyelitis/Chronic Fatigue</li>
-                    <li>Lancet Reviews: Inflammation and Central Sickness Pathways</li>
-                    <li>WHO Reports: Metabolic Syndrome & Obesity Phenotypes</li>
-                </ul>
-            </section>
+        </main>
+    </div>
 
-        </article>
-    </main>
-
-    <footer class="bg-slate-900 text-slate-400 border-t border-slate-800 text-xs py-6 mt-12">
-        <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
-            <p>&copy; 2026 Dr. Hamid Fazal. Provided open-access for clinicians, students, and healthcare professionals.</p>
-            <p class="text-slate-500">Built for educational resource sharing via GitHub Pages.</p>
+    <footer class="bg-slate-900 text-slate-400 py-8 px-4 text-center text-xs mt-16 border-t border-slate-800">
+        <div class="max-w-5xl mx-auto">
+            <p>&copy; 2026 Dr. Hamid Fazal. Educational Resource for Medical Professionals.</p>
+            <p class="mt-1 text-slate-600">Built using Tailwind CSS &amp; Hosted via GitHub Pages.</p>
         </div>
     </footer>
 
